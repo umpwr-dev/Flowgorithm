@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="contoh-2"/>
+        <attribute name="authors" value="Ifandika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 03:08:07 PM"/>
+        <attribute name="created" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDI6NTk6MTMgUE07MzA3OQ=="/>
+        <attribute name="edited" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDM6MDg6MDcgUE07MzszMTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X, Y, H" type="Real" array="False" size=""/>
+            <input variable="X"/>
+            <input variable="Y"/>
+            <assign variable="H" expression="(X + Y) / 2"/>
+            <output expression="H" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

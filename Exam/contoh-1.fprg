@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="contoh-1"/>
+        <attribute name="authors" value="Ifandika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 03:01:57 PM"/>
+        <attribute name="created" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDM6MDE6NDMgUE07MzA3MA=="/>
+        <attribute name="edited" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDM6MDE6NDkgUE07MTtJZmFuZGlrYTtBVVNYNDQxQi1JRkFOREk7MjAyNC0xMi0xMDswMjo0MjoyNiBQTTs2MzE4"/>
+        <attribute name="edited" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDM6MDE6NTcgUE07MTszMTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, F" type="Integer" array="False" size=""/>
+            <input variable="C"/>
+            <assign variable="F" expression="1.8 * C + 32"/>
+            <output expression="F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
