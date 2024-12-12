@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="contoh-5"/>
+        <attribute name="authors" value="Ifandika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 03:59:18 PM"/>
+        <attribute name="created" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDM6NDE6NTcgUE07MzA3OQ=="/>
+        <attribute name="edited" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDM6NTk6MTggUE07MjszMTk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, usiaA, usiaB" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="usiaB" expression="(x - y) / 2"/>
+            <assign variable="usiaA" expression="x - usiaB"/>
+            <output expression="usiaA" newline="True"/>
+            <output expression="usiaB" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

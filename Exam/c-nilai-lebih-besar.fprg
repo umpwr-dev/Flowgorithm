@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c-nilai-lebih-besar"/>
+        <attribute name="authors" value="Ifandika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 04:20:37 PM"/>
+        <attribute name="created" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDQ6MTU6MzUgUE07MzA3Nw=="/>
+        <attribute name="edited" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDQ6MjA6MzcgUE07MTszMTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, t" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a &gt; b">
+                <then>
+                    <output expression="&quot;Benar a &gt; b&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Salah a &gt; b&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

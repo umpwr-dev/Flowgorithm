@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c-luas-persegi-panjang"/>
+        <attribute name="authors" value="Ifandika"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 04:09:29 PM"/>
+        <attribute name="created" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDQ6MDA6MTUgUE07MzA2OQ=="/>
+        <attribute name="edited" value="SWZhbmRpa2E7QVVTWDQ0MUItSUZBTkRJOzIwMjQtMTItMTA7MDQ6MDk6MjkgUE07MTszMTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, L" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="L" expression="a * b"/>
+            <output expression="L" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
